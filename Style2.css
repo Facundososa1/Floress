@@ -1,0 +1,38 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffecb3; /* Fondo amarillo suave */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: #4f4b2f; /* Color marrón suave para el texto */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #f1a10a; /* Amarillo más fuerte para el título */
+}
+
+button {
+    background-color: #f1a10a;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffa726;
+    transform: scale(1.1); /* Aumenta un poco el tamaño al pasar el ratón */
+}
